@@ -1,0 +1,14 @@
+C:\code you projects\LindasPetShop\LindasPetShop\obj\Debug\net8.0\LindasPetShop.GeneratedMSBuildEditorConfig.editorconfig
+C:\code you projects\LindasPetShop\LindasPetShop\obj\Debug\net8.0\LindasPetShop.AssemblyInfoInputs.cache
+C:\code you projects\LindasPetShop\LindasPetShop\obj\Debug\net8.0\LindasPetShop.AssemblyInfo.cs
+C:\code you projects\LindasPetShop\LindasPetShop\obj\Debug\net8.0\LindasPetShop.csproj.CoreCompileInputs.cache
+C:\code you projects\LindasPetShop\LindasPetShop\bin\Debug\net8.0\LindasPetShop.exe
+C:\code you projects\LindasPetShop\LindasPetShop\bin\Debug\net8.0\LindasPetShop.deps.json
+C:\code you projects\LindasPetShop\LindasPetShop\bin\Debug\net8.0\LindasPetShop.runtimeconfig.json
+C:\code you projects\LindasPetShop\LindasPetShop\bin\Debug\net8.0\LindasPetShop.dll
+C:\code you projects\LindasPetShop\LindasPetShop\bin\Debug\net8.0\LindasPetShop.pdb
+C:\code you projects\LindasPetShop\LindasPetShop\obj\Debug\net8.0\LindasPetShop.dll
+C:\code you projects\LindasPetShop\LindasPetShop\obj\Debug\net8.0\refint\LindasPetShop.dll
+C:\code you projects\LindasPetShop\LindasPetShop\obj\Debug\net8.0\LindasPetShop.pdb
+C:\code you projects\LindasPetShop\LindasPetShop\obj\Debug\net8.0\LindasPetShop.genruntimeconfig.cache
+C:\code you projects\LindasPetShop\LindasPetShop\obj\Debug\net8.0\ref\LindasPetShop.dll

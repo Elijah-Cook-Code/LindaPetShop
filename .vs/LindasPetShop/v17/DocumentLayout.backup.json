@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\code you projects\\LindasPetShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB46BFD-CD38-49FD-9ADF-C7AA67117C24}|LindasPetShop\\LindasPetShop.csproj|c:\\code you projects\\lindaspetshop\\lindaspetshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB46BFD-CD38-49FD-9ADF-C7AA67117C24}|LindasPetShop\\LindasPetShop.csproj|solutionrelative:lindaspetshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB46BFD-CD38-49FD-9ADF-C7AA67117C24}|LindasPetShop\\LindasPetShop.csproj|c:\\code you projects\\lindaspetshop\\lindaspetshop\\dogleash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB46BFD-CD38-49FD-9ADF-C7AA67117C24}|LindasPetShop\\LindasPetShop.csproj|solutionrelative:lindaspetshop\\dogleash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB46BFD-CD38-49FD-9ADF-C7AA67117C24}|LindasPetShop\\LindasPetShop.csproj|c:\\code you projects\\lindaspetshop\\lindaspetshop\\catfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB46BFD-CD38-49FD-9ADF-C7AA67117C24}|LindasPetShop\\LindasPetShop.csproj|solutionrelative:lindaspetshop\\catfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB46BFD-CD38-49FD-9ADF-C7AA67117C24}|LindasPetShop\\LindasPetShop.csproj|c:\\code you projects\\lindaspetshop\\lindaspetshop\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB46BFD-CD38-49FD-9ADF-C7AA67117C24}|LindasPetShop\\LindasPetShop.csproj|solutionrelative:lindaspetshop\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\code you projects\\LindasPetShop\\LindasPetShop\\Product.cs",
+              "RelativeDocumentMoniker": "LindasPetShop\\Product.cs",
+              "ToolTip": "C:\\code you projects\\LindasPetShop\\LindasPetShop\\Product.cs",
+              "RelativeToolTip": "LindasPetShop\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T23:08:05.369Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CatFood.cs",
+              "DocumentMoniker": "C:\\code you projects\\LindasPetShop\\LindasPetShop\\CatFood.cs",
+              "RelativeDocumentMoniker": "LindasPetShop\\CatFood.cs",
+              "ToolTip": "C:\\code you projects\\LindasPetShop\\LindasPetShop\\CatFood.cs",
+              "RelativeToolTip": "LindasPetShop\\CatFood.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T23:14:22.331Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DogLeash.cs",
+              "DocumentMoniker": "C:\\code you projects\\LindasPetShop\\LindasPetShop\\DogLeash.cs",
+              "RelativeDocumentMoniker": "LindasPetShop\\DogLeash.cs",
+              "ToolTip": "C:\\code you projects\\LindasPetShop\\LindasPetShop\\DogLeash.cs",
+              "RelativeToolTip": "LindasPetShop\\DogLeash.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T23:37:18.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\code you projects\\LindasPetShop\\LindasPetShop\\Program.cs",
+              "RelativeDocumentMoniker": "LindasPetShop\\Program.cs",
+              "ToolTip": "C:\\code you projects\\LindasPetShop\\LindasPetShop\\Program.cs",
+              "RelativeToolTip": "LindasPetShop\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T23:06:11.653Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
