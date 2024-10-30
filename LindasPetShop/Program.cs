@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Text.Json;
 using System.Text.Json.Serialization;
@@ -16,13 +17,44 @@ namespace LindasPetShop
         {
             Console.WriteLine("Sup Fool!");
             Console.WriteLine("Press 1 to add a product");
+            Console.WriteLine("Press 2 to find your item");
+            Console.WriteLine("Press 8 to view all your products, incase you forgot!");
             Console.WriteLine("Type 'exit' to quit");
-            
+
+            ProductLogic productLogic = new ProductLogic();
+
             string userInput = Console.ReadLine();
 
             while (userInput.ToLower() != "exit")
             {
-                if(userInput == "1")
+
+                if (userInput == "2")
+                {
+                    Console.WriteLine("enter the name of the item that you want to find!");
+                    string leashName = Console.ReadLine();
+
+                    DogLeash retrievedLeash = productLogic.GetDogLeashByName(leashName);
+
+                    if (retrievedLeash != null)
+                    {
+                        Console.WriteLine($"Retrived Dog Leash: Name: {retrievedLeash.Name} material: {retrievedLeash.Material}");
+                    }
+                    else
+                    {
+                        Console.WriteLine("No dog leash found with that");
+                    }
+                }
+                else if (userInput == "8")
+                {
+                    List<Product> allProducts = productLogic.GetAllProduct();
+
+                    foreach (Product product in allProducts)
+                    {
+                        Console.WriteLine(product.Name);
+                    }
+
+                }
+                else if (userInput == "1")
                 {
                     DogLeash dogLeash = new DogLeash();
 
@@ -44,15 +76,18 @@ namespace LindasPetShop
                     Console.WriteLine("Enter the amazing material of the dog leash: ");
                     dogLeash.Material = Console.ReadLine();
 
-                    Console.WriteLine(JsonSerializer.Serialize(dogLeash));
+                    productLogic.AddProduct(dogLeash);
+
+                    Console.WriteLine($"Product '{dogLeash.Name}' has been added to the darn list");
                 }
 
-                Console.WriteLine("Press 1 to add Product");
-                Console.WriteLine("Type 'exit' to quit");
-                userInput = Console.ReadLine();
+                    Console.WriteLine("Press 1 to add Product");
+                    Console.WriteLine("Press 2 to find your item");
+                    Console.WriteLine("Press 8 to view all your products, incase you forgot!");
+                    Console.WriteLine("Type 'exit' to quit");
+                    userInput = Console.ReadLine();
 
             }
-
         }
     }
 }

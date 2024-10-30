@@ -12,3 +12,4 @@ C:\code you projects\LindasPetShop\LindasPetShop\obj\Debug\net8.0\refint\LindasP
 C:\code you projects\LindasPetShop\LindasPetShop\obj\Debug\net8.0\LindasPetShop.pdb
 C:\code you projects\LindasPetShop\LindasPetShop\obj\Debug\net8.0\LindasPetShop.genruntimeconfig.cache
 C:\code you projects\LindasPetShop\LindasPetShop\obj\Debug\net8.0\ref\LindasPetShop.dll
+C:\code you projects\LindasPetShop\LindasPetShop\obj\Debug\net8.0\LindasPetShop.sourcelink.json
