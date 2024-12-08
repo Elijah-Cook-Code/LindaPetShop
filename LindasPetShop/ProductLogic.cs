@@ -6,15 +6,20 @@ using System.Threading.Tasks;
 
 namespace LindasPetShop
 {
-    internal class ProductLogic
+    internal class ProductLogic : IProductLogic
     {
-        private List<Product> _products = new List<Product>();
-
+        private List<Product> _products;
         Dictionary<string, DogLeash> dogLeashes = new Dictionary<string, DogLeash>();
         Dictionary<string, CatFood> catFoods = new Dictionary<string, CatFood>();
+
         public ProductLogic()
         {
-            _products = new List<Product>();
+            _products = new List<Product>
+            {
+                new DogLeash { Name = "normal Leash", Price = 10.99m, Quantity = 5 },
+                new DogLeash { Name = "Fancy Leash", Price = 19.99m, Quantity = 0 },
+                new CatFood { Name = "Kitty Kibble", Price = 5.99m, Quantity = 10 }
+            };
         }
         public void AddProduct(Product product)
         {
@@ -31,11 +36,26 @@ namespace LindasPetShop
         }
         public List<Product> GetAllProduct()
         {
-           return _products;
+            return _products;
         }
         public DogLeash GetDogLeashByName(string name)
         {
-            return dogLeashes[name];
+            try
+            {
+                return dogLeashes[name];
+            }
+            catch (KeyNotFoundException)
+            {
+                return null;
+            }
+        }
+        public List<string> GetOnlyInStockProducts()
+        {
+            return _products.InStock().Select(product => product.Name).ToList();
+        }
+        public decimal GetTotalPriceOfInventory()
+        {
+            return _products.InStock().Select(product => product.Price).Sum();
         }
     }
 }

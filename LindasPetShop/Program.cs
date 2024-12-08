@@ -19,9 +19,25 @@ namespace LindasPetShop
             Console.WriteLine("Press 1 to add a product");
             Console.WriteLine("Press 2 to find your item");
             Console.WriteLine("Press 8 to view all your products, incase you forgot!");
+            Console.WriteLine("Press 7 to get a list of in stock products");
             Console.WriteLine("Type 'exit' to quit");
 
             ProductLogic productLogic = new ProductLogic();
+
+            Console.WriteLine("all yah stuff");
+            foreach (var product in productLogic.GetAllProduct())
+            {
+                Console.WriteLine($"{product.Name}, Quantity {product.Quantity}, Price ${product.Price}");
+            }
+
+            Console.WriteLine("\nIn-Stock Products:");
+            foreach (var productName in productLogic.GetOnlyInStockProducts())
+            {
+                Console.WriteLine(productName);
+            }
+
+            decimal totalPrice = productLogic.GetTotalPriceOfInventory();
+            Console.WriteLine($"\nTotal Price of In-Stock Inventory: ${totalPrice}");
 
             string userInput = Console.ReadLine();
 
@@ -41,7 +57,7 @@ namespace LindasPetShop
                     }
                     else
                     {
-                        Console.WriteLine("No dog leash found with that");
+                        Console.WriteLine("No dog leash found with that name");
                     }
                 }
                 else if (userInput == "8")
@@ -80,9 +96,20 @@ namespace LindasPetShop
 
                     Console.WriteLine($"Product '{dogLeash.Name}' has been added to the darn list");
                 }
+                else if (userInput == "7")
+                {
+                    List<string> inStockProducts = productLogic.GetOnlyInStockProducts();
+
+                    Console.WriteLine("In Stock Stuff");
+                    foreach (var productName in inStockProducts)
+                    {
+                        Console.WriteLine(productName);
+                    }
+                }
 
                     Console.WriteLine("Press 1 to add Product");
                     Console.WriteLine("Press 2 to find your item");
+                    Console.WriteLine("Press 7 to get a list of in stock products");
                     Console.WriteLine("Press 8 to view all your products, incase you forgot!");
                     Console.WriteLine("Type 'exit' to quit");
                     userInput = Console.ReadLine();

@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace LindasPetShop
 {
-    public class CatFood : Product
+    internal class DryCatFood : CatFood
     {
-        public bool KittenFood { get; set; }
+        public double Weight { get; set; }
     }
 }
