@@ -9,7 +9,7 @@ namespace LindasPetShop
 {
     internal static class ListExtentions
     {
-        public static List<T> InStock<T>(this List<T> list) where T : Product
+        public static List<T> FilterInStock<T>(this IList<T> list) where T : Product
         {  
             return list.Where(product => product.Quantity > 0).ToList(); 
         }

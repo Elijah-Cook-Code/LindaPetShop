@@ -10,7 +10,7 @@ namespace LindasPetShop
     {
         public void AddProduct(Product product);
         public List<Product> GetAllProduct();
-        public DogLeash GetDogLeashByName(string name);
+        T GetProductByName<T>(string name) where T : Product;
         List<string> GetOnlyInStockProducts();
         decimal GetTotalPriceOfInventory();
     }

@@ -3,14 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using FluentValidation;
 
 namespace LindasPetShop
 {
-    internal class ProductLogic : IProductLogic
+    public class ProductLogic : IProductLogic
     {
-        private List<Product> _products;
-        Dictionary<string, DogLeash> dogLeashes = new Dictionary<string, DogLeash>();
-        Dictionary<string, CatFood> catFoods = new Dictionary<string, CatFood>();
+        private readonly IList<Product> _products;
+        private readonly IDictionary<string, DogLeash> _dogLeash;
+        private readonly DogLeashValidator _dogLeashValidator;
 
         public ProductLogic()
         {
@@ -20,42 +21,41 @@ namespace LindasPetShop
                 new DogLeash { Name = "Fancy Leash", Price = 19.99m, Quantity = 0 },
                 new CatFood { Name = "Kitty Kibble", Price = 5.99m, Quantity = 10 }
             };
+            _dogLeash = new Dictionary<string, DogLeash>();
+            _dogLeashValidator = new DogLeashValidator();
         }
         public void AddProduct(Product product)
         {
-            _products.Add(product);
-
             if (product is DogLeash dogLeash)
             {
-                dogLeashes[product.Name] = dogLeash;
+                var validationResult = _dogLeashValidator.Validate(dogLeash);
+                if (!validationResult.IsValid)
+                {
+                    throw new ValidationException(validationResult.Errors);
+                }
             }
-            else if (product is CatFood catFood)
+            
+            _products.Add(product);
+
+            if (product is DogLeash leash)
             {
-                catFoods[product.Name] = catFood;
+                _dogLeash[leash.Name] = leash;
             }
         }
-        public List<Product> GetAllProduct()
+        public List<Product> GetAllProduct() => _products.ToList();
+
+        public T GetProductByName<T>(string name) where T : Product
         {
-            return _products;
-        }
-        public DogLeash GetDogLeashByName(string name)
-        {
-            try
-            {
-                return dogLeashes[name];
-            }
-            catch (KeyNotFoundException)
-            {
-                return null;
-            }
+            var product = _products.OfType<T>().FirstOrDefault(p => p.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
+            return product;
         }
         public List<string> GetOnlyInStockProducts()
         {
-            return _products.InStock().Select(product => product.Name).ToList();
+            return _products.Where(product => product.Quantity > 0).Select(product => product.Name).ToList();
         }
         public decimal GetTotalPriceOfInventory()
         {
-            return _products.InStock().Select(product => product.Price).Sum();
+            return _products.Where(product => product.Quantity > 0).Sum(product => product.Price * product.Quantity);
         }
     }
 }
