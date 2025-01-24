@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.Extensions.DependencyInjection;
+using PetStore.Data;
 
 namespace LindasPetShop
 {
@@ -21,6 +22,8 @@ namespace LindasPetShop
             return new ServiceCollection()
             .AddTransient<UIlogic>()
             .AddTransient<IProductLogic, ProductLogic>()
+            .AddTransient<IProductRepository, ProductRepository>()  
+            .AddDbContext<ProductContext>()
             .BuildServiceProvider();
         }
     }

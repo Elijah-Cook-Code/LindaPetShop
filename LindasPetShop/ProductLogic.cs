@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using FluentValidation;
+using PetStore.Data;
 
 namespace LindasPetShop
 {
@@ -12,9 +13,11 @@ namespace LindasPetShop
         private readonly IList<Product> _products;
         private readonly IDictionary<string, DogLeash> _dogLeash;
         private readonly DogLeashValidator _dogLeashValidator;
+        private readonly IProductRepository _productRepository;
 
-        public ProductLogic()
+        public ProductLogic(IProductRepository productRepository)
         {
+            _productRepository = productRepository; //cs0266
             _products = new List<Product>
             {
                 new DogLeash { Name = "normal Leash", Price = 10.99m, Quantity = 5 },
@@ -34,8 +37,16 @@ namespace LindasPetShop
                     throw new ValidationException(validationResult.Errors);
                 }
             }
-            
-            _products.Add(product);
+
+            var productEntity = new ProductEntity
+            {
+                Name = product.Name,
+                Price = product.Price,
+                Quantity = product.Quantity, // Use Quantity
+                Description = product.Description,
+            };
+
+            _productRepository.AddProduct(productEntity); //cs1526
 
             if (product is DogLeash leash)
             {
@@ -44,10 +55,23 @@ namespace LindasPetShop
         }
         public List<Product> GetAllProduct() => _products.ToList();
 
-        public T GetProductByName<T>(string name) where T : Product
+        public Product GetProductById(int id)
         {
-            var product = _products.OfType<T>().FirstOrDefault(p => p.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
-            return product;
+            var productEntity = _productRepository.GetProductId(id);
+
+            if (productEntity != null)
+            {
+                // Convert ProductEntity to Product and return it
+                return new Product
+                {
+                    Name = productEntity.Name,
+                    Price = productEntity.Price,
+                    Quantity = productEntity.Quantity, // Use Quantity
+                    Description = productEntity.Description,
+                };
+            }
+
+            return null;
         }
         public List<string> GetOnlyInStockProducts()
         {

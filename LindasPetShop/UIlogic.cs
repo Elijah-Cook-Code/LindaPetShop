@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PetStore.Data;
+using System;
 using System.Collections.Generic;
 using System.Text.Json;
 
@@ -10,7 +11,8 @@ namespace LindasPetShop
 
         public UIlogic()
         {
-            _productLogic = new ProductLogic();
+            IProductRepository productRepository = new ProductRepository(new ProductContext());
+            _productLogic = new ProductLogic(productRepository);
         }
 
         public void Start()
@@ -135,7 +137,8 @@ namespace LindasPetShop
         {
             string productName = PromptInput("Enter the dang name of your product name:");
 
-            DogLeash leash = _productLogic.GetProductByName<DogLeash>(productName);
+            DogLeash leash = _productLogic.GetProductById(id); //cs0103 this has to do with getting rid of the find name method and now
+                                                               //only working with id go back and change this so it will reslove this issue 
 
             if (leash != null)
             {
