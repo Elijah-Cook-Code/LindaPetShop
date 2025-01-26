@@ -75,8 +75,11 @@ namespace LindasPetShop
             try
             {
                 // input prompts
-                Console.Write("Enter product name: ");
+                Console.WriteLine("Enter Product Name");
                 string name = Console.ReadLine();
+                
+                Console.Write("Enter product Id: ");
+                int id = int.Parse(Console.ReadLine());
 
                 Console.Write("Enter product price: ");
                 decimal price = decimal.Parse(Console.ReadLine());
@@ -97,6 +100,7 @@ namespace LindasPetShop
                 var dogLeashObject = new DogLeash
                 {
                     Name = name,
+                    Id = id,
                     Price = price,
                     Quantity = quantity,
                     Description = description,
@@ -115,7 +119,7 @@ namespace LindasPetShop
                 {
                     // Step 4: Add product
                     _productLogic.AddProduct(dogLeash);
-                    Console.WriteLine($"Product '{dogLeash.Name}' added successfully.");
+                    Console.WriteLine($"Product '{dogLeash.Id}' added successfully.");
                 }
                 else
                 {
@@ -135,18 +139,23 @@ namespace LindasPetShop
 
         private void FindProduct()
         {
-            string productName = PromptInput("Enter the dang name of your product name:");
+            string productName = PromptInput("Enter the dang Id of your product name:");
 
-            DogLeash leash = _productLogic.GetProductById(id); //cs0103 this has to do with getting rid of the find name method and now
-                                                               //only working with id go back and change this so it will reslove this issue 
-
-            if (leash != null)
+            if (int.TryParse(productName, out int id))
             {
-                Console.WriteLine($"Product found: {leash.Name}, Material: {leash.Material}");
+                Product product = _productLogic.GetProductById(id);
+                if (product != null)
+                {
+                    Console.WriteLine($"Product found: {product.Id}, Material: {product.Name}");
+                }
+                else
+                {
+                    Console.WriteLine("Product not found bruva");
+                }
             }
             else
             {
-                Console.WriteLine("Product not found bruva");
+                Console.WriteLine("invail Id enter, please try again");
             }
         }
 
@@ -164,7 +173,7 @@ namespace LindasPetShop
             Console.WriteLine("/nAll Products:");
             foreach (var product in _productLogic.GetAllProduct())
             {
-                Console.WriteLine($"{product.Name}, Quantity: {product.Quantity}, Price:$ {product.Price}");
+                Console.WriteLine($"{product.Id}, Quantity: {product.Quantity}, Price:$ {product.Price}");
             }
         }
 

@@ -8,7 +8,7 @@ using PetStore.Data;
 
 namespace LindasPetShop
 {
-    public class ProductLogic : IProductLogic
+    public class ProductLogic : IProductLogic  //errors are because I removed the dog leash class
     {
         private readonly IList<Product> _products;
         private readonly IDictionary<string, DogLeash> _dogLeash;
@@ -42,7 +42,7 @@ namespace LindasPetShop
             {
                 Name = product.Name,
                 Price = product.Price,
-                Quantity = product.Quantity, // Use Quantity
+                Quantity = product.Quantity, 
                 Description = product.Description,
             };
 
@@ -63,7 +63,8 @@ namespace LindasPetShop
             {
                 // Convert ProductEntity to Product and return it
                 return new Product
-                {
+                { 
+                    Id = productEntity.ProductId,
                     Name = productEntity.Name,
                     Price = productEntity.Price,
                     Quantity = productEntity.Quantity, // Use Quantity
