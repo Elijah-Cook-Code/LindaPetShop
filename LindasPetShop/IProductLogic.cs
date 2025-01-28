@@ -11,7 +11,6 @@ namespace LindasPetShop
         public void AddProduct(Product product);
         public List<Product> GetAllProduct();
         public Product GetProductById(int id);
-        List<string> GetOnlyInStockProducts();
-        decimal GetTotalPriceOfInventory();
+       
     }
 }

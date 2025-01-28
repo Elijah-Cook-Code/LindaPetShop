@@ -3,40 +3,56 @@
   "WorkspaceRootPath": "C:\\code you projects\\LindasPetShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6BB46BFD-CD38-49FD-9ADF-C7AA67117C24}|LindasPetShop\\LindasPetShop.csproj|c:\\code you projects\\lindaspetshop\\lindaspetshop\\productlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BB46BFD-CD38-49FD-9ADF-C7AA67117C24}|LindasPetShop\\LindasPetShop.csproj|solutionrelative:lindaspetshop\\productlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42226402-497E-4BAF-8136-52263FC5AEFF}|PetStore.Data\\PetStore.Data.csproj|c:\\code you projects\\lindaspetshop\\petstore.data\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42226402-497E-4BAF-8136-52263FC5AEFF}|PetStore.Data\\PetStore.Data.csproj|solutionrelative:petstore.data\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB46BFD-CD38-49FD-9ADF-C7AA67117C24}|LindasPetShop\\LindasPetShop.csproj|c:\\code you projects\\lindaspetshop\\lindaspetshop\\bin\\debug\\net8.0\\petstore.db||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6BB46BFD-CD38-49FD-9ADF-C7AA67117C24}|LindasPetShop\\LindasPetShop.csproj|solutionrelative:lindaspetshop\\bin\\debug\\net8.0\\petstore.db||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42226402-497E-4BAF-8136-52263FC5AEFF}|PetStore.Data\\PetStore.Data.csproj|c:\\code you projects\\lindaspetshop\\petstore.data\\productentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42226402-497E-4BAF-8136-52263FC5AEFF}|PetStore.Data\\PetStore.Data.csproj|solutionrelative:petstore.data\\productentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BB46BFD-CD38-49FD-9ADF-C7AA67117C24}|LindasPetShop\\LindasPetShop.csproj|c:\\code you projects\\lindaspetshop\\lindaspetshop\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BB46BFD-CD38-49FD-9ADF-C7AA67117C24}|LindasPetShop\\LindasPetShop.csproj|solutionrelative:lindaspetshop\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{42226402-497E-4BAF-8136-52263FC5AEFF}|PetStore.Data\\PetStore.Data.csproj|c:\\code you projects\\lindaspetshop\\petstore.data\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42226402-497E-4BAF-8136-52263FC5AEFF}|PetStore.Data\\PetStore.Data.csproj|solutionrelative:petstore.data\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42226402-497E-4BAF-8136-52263FC5AEFF}|PetStore.Data\\PetStore.Data.csproj|c:\\code you projects\\lindaspetshop\\petstore.data\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42226402-497E-4BAF-8136-52263FC5AEFF}|PetStore.Data\\PetStore.Data.csproj|solutionrelative:petstore.data\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BB46BFD-CD38-49FD-9ADF-C7AA67117C24}|LindasPetShop\\LindasPetShop.csproj|c:\\code you projects\\lindaspetshop\\lindaspetshop\\productlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB46BFD-CD38-49FD-9ADF-C7AA67117C24}|LindasPetShop\\LindasPetShop.csproj|solutionrelative:lindaspetshop\\productlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6BB46BFD-CD38-49FD-9ADF-C7AA67117C24}|LindasPetShop\\LindasPetShop.csproj|c:\\code you projects\\lindaspetshop\\lindaspetshop\\uilogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BB46BFD-CD38-49FD-9ADF-C7AA67117C24}|LindasPetShop\\LindasPetShop.csproj|solutionrelative:lindaspetshop\\uilogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BB46BFD-CD38-49FD-9ADF-C7AA67117C24}|LindasPetShop\\LindasPetShop.csproj|c:\\code you projects\\lindaspetshop\\lindaspetshop\\iproductlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BB46BFD-CD38-49FD-9ADF-C7AA67117C24}|LindasPetShop\\LindasPetShop.csproj|solutionrelative:lindaspetshop\\iproductlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42226402-497E-4BAF-8136-52263FC5AEFF}|PetStore.Data\\PetStore.Data.csproj|c:\\code you projects\\lindaspetshop\\petstore.data\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42226402-497E-4BAF-8136-52263FC5AEFF}|PetStore.Data\\PetStore.Data.csproj|solutionrelative:petstore.data\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB46BFD-CD38-49FD-9ADF-C7AA67117C24}|LindasPetShop\\LindasPetShop.csproj|c:\\code you projects\\lindaspetshop\\lindaspetshop\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB46BFD-CD38-49FD-9ADF-C7AA67117C24}|LindasPetShop\\LindasPetShop.csproj|solutionrelative:lindaspetshop\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6BB46BFD-CD38-49FD-9ADF-C7AA67117C24}|LindasPetShop\\LindasPetShop.csproj|c:\\code you projects\\lindaspetshop\\lindaspetshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BB46BFD-CD38-49FD-9ADF-C7AA67117C24}|LindasPetShop\\LindasPetShop.csproj|solutionrelative:lindaspetshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42226402-497E-4BAF-8136-52263FC5AEFF}|PetStore.Data\\PetStore.Data.csproj|c:\\code you projects\\lindaspetshop\\petstore.data\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42226402-497E-4BAF-8136-52263FC5AEFF}|PetStore.Data\\PetStore.Data.csproj|solutionrelative:petstore.data\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42226402-497E-4BAF-8136-52263FC5AEFF}|PetStore.Data\\PetStore.Data.csproj|c:\\code you projects\\lindaspetshop\\petstore.data\\petstore.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{42226402-497E-4BAF-8136-52263FC5AEFF}|PetStore.Data\\PetStore.Data.csproj|solutionrelative:petstore.data\\petstore.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB46BFD-CD38-49FD-9ADF-C7AA67117C24}|LindasPetShop\\LindasPetShop.csproj|c:\\code you projects\\lindaspetshop\\lindaspetshop\\lindaspetshop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6BB46BFD-CD38-49FD-9ADF-C7AA67117C24}|LindasPetShop\\LindasPetShop.csproj|solutionrelative:lindaspetshop\\lindaspetshop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB46BFD-CD38-49FD-9ADF-C7AA67117C24}|LindasPetShop\\LindasPetShop.csproj|c:\\code you projects\\lindaspetshop\\lindaspetshop\\iproductlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB46BFD-CD38-49FD-9ADF-C7AA67117C24}|LindasPetShop\\LindasPetShop.csproj|solutionrelative:lindaspetshop\\iproductlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB46BFD-CD38-49FD-9ADF-C7AA67117C24}|LindasPetShop\\LindasPetShop.csproj|c:\\code you projects\\lindaspetshop\\lindaspetshop\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB46BFD-CD38-49FD-9ADF-C7AA67117C24}|LindasPetShop\\LindasPetShop.csproj|solutionrelative:lindaspetshop\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,71 +70,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IProductLogic.cs",
-              "DocumentMoniker": "C:\\code you projects\\LindasPetShop\\LindasPetShop\\IProductLogic.cs",
-              "RelativeDocumentMoniker": "LindasPetShop\\IProductLogic.cs",
-              "ToolTip": "C:\\code you projects\\LindasPetShop\\LindasPetShop\\IProductLogic.cs",
-              "RelativeToolTip": "LindasPetShop\\IProductLogic.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T01:29:29.964Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductLogic.cs",
-              "DocumentMoniker": "C:\\code you projects\\LindasPetShop\\LindasPetShop\\ProductLogic.cs",
-              "RelativeDocumentMoniker": "LindasPetShop\\ProductLogic.cs",
-              "ToolTip": "C:\\code you projects\\LindasPetShop\\LindasPetShop\\ProductLogic.cs*",
-              "RelativeToolTip": "LindasPetShop\\ProductLogic.cs*",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAqwCkAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T23:54:32.375Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProductEntity.cs",
-              "DocumentMoniker": "C:\\code you projects\\LindasPetShop\\PetStore.Data\\ProductEntity.cs",
-              "RelativeDocumentMoniker": "PetStore.Data\\ProductEntity.cs",
-              "ToolTip": "C:\\code you projects\\LindasPetShop\\PetStore.Data\\ProductEntity.cs",
-              "RelativeToolTip": "PetStore.Data\\ProductEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T01:21:02.163Z",
+              "Title": "PetStore.db",
+              "DocumentMoniker": "C:\\code you projects\\LindasPetShop\\LindasPetShop\\bin\\Debug\\net8.0\\PetStore.db",
+              "RelativeDocumentMoniker": "LindasPetShop\\bin\\Debug\\net8.0\\PetStore.db",
+              "ToolTip": "C:\\code you projects\\LindasPetShop\\LindasPetShop\\bin\\Debug\\net8.0\\PetStore.db",
+              "RelativeToolTip": "LindasPetShop\\bin\\Debug\\net8.0\\PetStore.db",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd\u002BUAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAR/SURBVEhLxVZLT1tHFP58scEvsDGvIqAhIQTSBGMS1FaoyqLQKguSltCwZ5W/0J9QqYsuWNAu225ZdME6RWol1DYqhWAegYBDIGC7xk/8uLavc\u002BbO\u002BNaOhwpl0X72ufM653xzZs7MvfhPUSqVTKJqoKmpqd1ut7tYncb1Phn0kYpxk8lE6qWTUCiUEl1S1BDOzs7Oz8zMPKqvr4emaXqf4ZYINI23SuwnCJOJBCPMJhKJr\u002Bfm5r5ZXV2N6QMXASM8OjrS8vm8pjJRueRUlUuuoiRRqb6ysqIRiba0tJSe//a7r8bGxjzCXQ3qRGnA5/NNjo\u002BPjzocDh4B/xP40yhEP1uicDgMtiLd3d1minvU09LSmMvlngQCgbSuXAFFlAbKyyT8VqOC7E0Ui0UoioIrly83DHu9s17v8JdiqAo1hAyGQ8OxjL66b3l5GQsLC1hcXITf73cUtKJXDFXhnAhJ9D9PDJY8TFi9qBV5Mul8PIl6e3sxee8\u002Bph5M48H0NO7d/8xU0krSYOQR6sLJUmdnWH26Af/mM5yEwvh1\u002BTesrfvZOeDKBKvVBrfbzcXlhqupiRzoM6qBNEIeJUc4corA4TGiyTP8ubYOpd6GtY1t0tGQzeV0nUrX5TqbsAzSCJluPJ7E6vomTqNxuJqb4WnvwDs976KVSpfbhXUi3dx6hkw2K4wIFROV08kiFOX2zg5ehSLQzPVE4EYkFEQkGEQoeIKunkuIZ1QchyM4PgkKi2qSylWqhHRJGXq6upBLp2CxWKBRylvNdRi5OYhsKgGH00nHoAB3oxOtLa3MihnqdgbkfJIlJUP28zS74LDbkEolUaKstDZYyLkHSjlZqEimaEI0EYYa/xePkD2AP/5ag8XqQGdnF2xE/PJVEAs/LaLA7nsab21ph2KxYvv5LvL5Aj8qAmzCdIhEqxqSpOGMg1f7KHFO8XzLj3gsjkHvMIZujeLq4HXs7\u002B3i5f4OEtEIioUCln9/gr3AC8RIT8/yshsJpEnDxOPx4M6H7\u002BO2bwixaJSSJoTDFwHEqR6PxfDB6C3aXzNO/o4hW9Ao0gB\u002BoTNaLBS5n4svKZ8hE3aQLWYzbLR/\u002BUwKnW0epJMxdHd2YD9wgCIptbZ16EnFjotKZOxy4NFdkNBgE7DT/o14b\u002BDGQD\u002Bu9V3B9f4\u002BjAzdhJpXoZgtyGTSOKDIc9kM6iiBDg4PyYomLec7Zw\u002BZNnvRUqmYFP2qoi8BKHV1lL3N\u002BiQGaI/zROJsbITv9iis9DrLqzm8NzggvMgZpXtYLssig81mg81qwdbGU\u002Bzt7mBn0w\u002Bn3U5Hyc4VzjE8dw9rQb1sTAi7EO5OTGD8zkfo772EyU8/ofbHMItzqdFdK4OE0HjwUhDoVV2jGu1tbRjxeWnJG0WPgEyZIN9DkspsfRucZ1dLyEIhsM\u002BFtxUdws\u002Bb\u002BOctKvDFw4fzU59PPWqwWlmcdI9yQ71urCuv8yZ7sKuMIHTVQh5Lj39\u002B/OMP30/oHRWoIXQ6ne2UgS4\u002BQe6gDKP1b2MM1KDPzHQymTgSPf8XgNcpx2iniimaVwAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-01-28T00:24:07.183Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\code you projects\\LindasPetShop\\LindasPetShop\\Product.cs",
-              "RelativeDocumentMoniker": "LindasPetShop\\Product.cs",
-              "ToolTip": "C:\\code you projects\\LindasPetShop\\LindasPetShop\\Product.cs",
-              "RelativeToolTip": "LindasPetShop\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\code you projects\\LindasPetShop\\PetStore.Data\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "PetStore.Data\\ProductRepository.cs",
+              "ToolTip": "C:\\code you projects\\LindasPetShop\\PetStore.Data\\ProductRepository.cs",
+              "RelativeToolTip": "PetStore.Data\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T01:20:06.759Z",
+              "WhenOpened": "2025-01-23T01:53:13.271Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UIlogic.cs",
-              "DocumentMoniker": "C:\\code you projects\\LindasPetShop\\LindasPetShop\\UIlogic.cs",
-              "RelativeDocumentMoniker": "LindasPetShop\\UIlogic.cs",
-              "ToolTip": "C:\\code you projects\\LindasPetShop\\LindasPetShop\\UIlogic.cs*",
-              "RelativeToolTip": "LindasPetShop\\UIlogic.cs*",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAiwGcAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T00:49:28.289Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "C:\\code you projects\\LindasPetShop\\PetStore.Data\\IProductRepository.cs",
               "RelativeDocumentMoniker": "PetStore.Data\\IProductRepository.cs",
@@ -131,40 +109,128 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\code you projects\\LindasPetShop\\PetStore.Data\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "PetStore.Data\\ProductRepository.cs",
-              "ToolTip": "C:\\code you projects\\LindasPetShop\\PetStore.Data\\ProductRepository.cs",
-              "RelativeToolTip": "PetStore.Data\\ProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ProductEntity.cs",
+              "DocumentMoniker": "C:\\code you projects\\LindasPetShop\\PetStore.Data\\ProductEntity.cs",
+              "RelativeDocumentMoniker": "PetStore.Data\\ProductEntity.cs",
+              "ToolTip": "C:\\code you projects\\LindasPetShop\\PetStore.Data\\ProductEntity.cs",
+              "RelativeToolTip": "PetStore.Data\\ProductEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T01:53:13.271Z",
+              "WhenOpened": "2025-01-24T01:21:02.163Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
+              "Title": "UIlogic.cs",
+              "DocumentMoniker": "C:\\code you projects\\LindasPetShop\\LindasPetShop\\UIlogic.cs",
+              "RelativeDocumentMoniker": "LindasPetShop\\UIlogic.cs",
+              "ToolTip": "C:\\code you projects\\LindasPetShop\\LindasPetShop\\UIlogic.cs",
+              "RelativeToolTip": "LindasPetShop\\UIlogic.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAswFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T00:49:28.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "ProductContext.cs",
               "DocumentMoniker": "C:\\code you projects\\LindasPetShop\\PetStore.Data\\ProductContext.cs",
               "RelativeDocumentMoniker": "PetStore.Data\\ProductContext.cs",
               "ToolTip": "C:\\code you projects\\LindasPetShop\\PetStore.Data\\ProductContext.cs",
               "RelativeToolTip": "PetStore.Data\\ProductContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T00:25:33.776Z"
+              "WhenOpened": "2025-01-24T00:25:33.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductLogic.cs",
+              "DocumentMoniker": "C:\\code you projects\\LindasPetShop\\LindasPetShop\\ProductLogic.cs",
+              "RelativeDocumentMoniker": "LindasPetShop\\ProductLogic.cs",
+              "ToolTip": "C:\\code you projects\\LindasPetShop\\LindasPetShop\\ProductLogic.cs",
+              "RelativeToolTip": "LindasPetShop\\ProductLogic.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T23:54:32.375Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\code you projects\\LindasPetShop\\LindasPetShop\\Product.cs",
+              "RelativeDocumentMoniker": "LindasPetShop\\Product.cs",
+              "ToolTip": "C:\\code you projects\\LindasPetShop\\LindasPetShop\\Product.cs",
+              "RelativeToolTip": "LindasPetShop\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T01:20:06.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\code you projects\\LindasPetShop\\LindasPetShop\\Program.cs",
               "RelativeDocumentMoniker": "LindasPetShop\\Program.cs",
               "ToolTip": "C:\\code you projects\\LindasPetShop\\LindasPetShop\\Program.cs",
               "RelativeToolTip": "LindasPetShop\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-23T02:14:05.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PetStore.Data.csproj",
+              "DocumentMoniker": "C:\\code you projects\\LindasPetShop\\PetStore.Data\\PetStore.Data.csproj",
+              "RelativeDocumentMoniker": "PetStore.Data\\PetStore.Data.csproj",
+              "ToolTip": "C:\\code you projects\\LindasPetShop\\PetStore.Data\\PetStore.Data.csproj",
+              "RelativeToolTip": "PetStore.Data\\PetStore.Data.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-27T22:44:09.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LindasPetShop.csproj",
+              "DocumentMoniker": "C:\\code you projects\\LindasPetShop\\LindasPetShop\\LindasPetShop.csproj",
+              "RelativeDocumentMoniker": "LindasPetShop\\LindasPetShop.csproj",
+              "ToolTip": "C:\\code you projects\\LindasPetShop\\LindasPetShop\\LindasPetShop.csproj",
+              "RelativeToolTip": "LindasPetShop\\LindasPetShop.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-27T22:53:55.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IProductLogic.cs",
+              "DocumentMoniker": "C:\\code you projects\\LindasPetShop\\LindasPetShop\\IProductLogic.cs",
+              "RelativeDocumentMoniker": "LindasPetShop\\IProductLogic.cs",
+              "ToolTip": "C:\\code you projects\\LindasPetShop\\LindasPetShop\\IProductLogic.cs",
+              "RelativeToolTip": "LindasPetShop\\IProductLogic.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T01:29:29.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductValidator.cs",
+              "DocumentMoniker": "C:\\code you projects\\LindasPetShop\\LindasPetShop\\ProductValidator.cs",
+              "RelativeDocumentMoniker": "LindasPetShop\\ProductValidator.cs",
+              "ToolTip": "C:\\code you projects\\LindasPetShop\\LindasPetShop\\ProductValidator.cs",
+              "RelativeToolTip": "LindasPetShop\\ProductValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T02:15:35.247Z"
             }
           ]
         }

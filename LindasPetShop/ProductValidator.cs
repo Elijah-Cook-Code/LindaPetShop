@@ -2,9 +2,9 @@
 
 namespace LindasPetShop
 {
-    public class DogLeashValidator : AbstractValidator<DogLeash>
+    public class ProductValidator : AbstractValidator<Product>
     {
-        public DogLeashValidator()
+        public ProductValidator()
         {
             RuleFor(d => d.Name)
                 .NotEmpty().WithMessage("Name is required.");

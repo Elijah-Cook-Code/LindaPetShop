@@ -16,8 +16,20 @@ namespace PetStore.Data
         }
         public void AddProduct(ProductEntity product)
         {
-            _context.Products.Add(product);
-            _context.SaveChanges();
+            try
+            {
+                _context.Products.Add(product);
+                _context.SaveChanges();
+                Console.WriteLine("Product saved");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error while saving the product: {ex.Message}");
+                if (ex.InnerException != null)
+                {
+                    Console.WriteLine($"Inner Exception: {ex.InnerException.Message}");
+                }
+            }
         }
         public ProductEntity GetProductId(int id)
         {

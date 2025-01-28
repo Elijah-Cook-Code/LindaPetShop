@@ -1,4 +1,5 @@
-﻿using PetStore.Data;
+﻿using FluentValidation;
+using PetStore.Data;
 using System;
 using System.Collections.Generic;
 using System.Text.Json;
@@ -9,10 +10,11 @@ namespace LindasPetShop
     {
         private readonly IProductLogic _productLogic;
 
-        public UIlogic()
+        public UIlogic(IProductLogic productLogic)
         {
             IProductRepository productRepository = new ProductRepository(new ProductContext());
-            _productLogic = new ProductLogic(productRepository);
+            IValidator<Product> productValidator = new ProductValidator();
+            _productLogic = new ProductLogic(productRepository, productValidator);
         }
 
         public void Start()
@@ -32,9 +34,6 @@ namespace LindasPetShop
                         break;
                     case "2":
                         FindProduct();
-                        break;
-                    case "7":
-                        DisplayInStockProducts();
                         break;
                     case "8":
                         DisplayAllProducts();
@@ -59,7 +58,6 @@ namespace LindasPetShop
             Console.WriteLine("/nMenu:");
             Console.WriteLine("1-Add a product");
             Console.WriteLine("2-Find a product");
-            Console.WriteLine("7-View in-stock stuff");
             Console.WriteLine("8- View all products and stuff");
             Console.WriteLine("Type 'exit' to quit");
             Console.WriteLine("You gets to pick now");
@@ -90,36 +88,30 @@ namespace LindasPetShop
                 Console.Write("Enter product description: ");
                 string description = Console.ReadLine();
 
-                Console.Write("Enter leash length (in inches): ");
-                int lengthInches = int.Parse(Console.ReadLine());
-
-                Console.Write("Enter leash material: ");
-                string material = Console.ReadLine();
 
                 // Step 1: Build an object
-                var dogLeashObject = new DogLeash
+                var productObject = new Product
                 {
                     Name = name,
                     Id = id,
                     Price = price,
                     Quantity = quantity,
                     Description = description,
-                    LengthInches = lengthInches,
-                    Material = material
+        
                 };
 
                 // Step 2: Convert object into JSON
-                string jsonInput = JsonSerializer.Serialize(dogLeashObject);
+                string jsonInput = JsonSerializer.Serialize(productObject);
                 Console.WriteLine($"\nGenerated JSON: {jsonInput}"); 
 
                 // Step 3: Deserialize the JSON back 
-                DogLeash dogLeash = JsonSerializer.Deserialize<DogLeash>(jsonInput);
+                Product product = JsonSerializer.Deserialize<Product>(jsonInput);
 
-                if (dogLeash != null)
+                if (product != null)
                 {
                     // Step 4: Add product
-                    _productLogic.AddProduct(dogLeash);
-                    Console.WriteLine($"Product '{dogLeash.Id}' added successfully.");
+                    _productLogic.AddProduct(product);
+                    Console.WriteLine($"Product '{product.Id}' added successfully.");
                 }
                 else
                 {
@@ -156,15 +148,6 @@ namespace LindasPetShop
             else
             {
                 Console.WriteLine("invail Id enter, please try again");
-            }
-        }
-
-        private void DisplayInStockProducts()
-        {
-            Console.WriteLine("/nIn-Stock Products:");
-            foreach (var product in _productLogic.GetOnlyInStockProducts())
-            {
-                Console.WriteLine(product);
             }
         }
 

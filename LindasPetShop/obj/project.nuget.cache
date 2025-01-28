@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XfiD1V2admE=",
+  "dgSpecHash": "x5W0kRkrni4=",
   "success": true,
   "projectFilePath": "C:\\code you projects\\LindasPetShop\\LindasPetShop\\LindasPetShop.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "C:\\Users\\Eli\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\9.0.1\\microsoft.entityframeworkcore.analyzers.9.0.1.nupkg.sha512",
     "C:\\Users\\Eli\\.nuget\\packages\\microsoft.entityframeworkcore.design\\9.0.1\\microsoft.entityframeworkcore.design.9.0.1.nupkg.sha512",
     "C:\\Users\\Eli\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\9.0.1\\microsoft.entityframeworkcore.relational.9.0.1.nupkg.sha512",
+    "C:\\Users\\Eli\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\9.0.1\\microsoft.entityframeworkcore.sqlite.9.0.1.nupkg.sha512",
     "C:\\Users\\Eli\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\9.0.1\\microsoft.entityframeworkcore.sqlite.core.9.0.1.nupkg.sha512",
     "C:\\Users\\Eli\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\9.0.1\\microsoft.entityframeworkcore.tools.9.0.1.nupkg.sha512",
     "C:\\Users\\Eli\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.1\\microsoft.extensions.caching.abstractions.9.0.1.nupkg.sha512",
@@ -54,7 +55,10 @@
     "C:\\Users\\Eli\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\9.0.0\\microsoft.extensions.options.configurationextensions.9.0.0.nupkg.sha512",
     "C:\\Users\\Eli\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.1\\microsoft.extensions.primitives.9.0.1.nupkg.sha512",
     "C:\\Users\\Eli\\.nuget\\packages\\mono.texttemplating\\3.0.0\\mono.texttemplating.3.0.0.nupkg.sha512",
+    "C:\\Users\\Eli\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.10\\sqlitepclraw.bundle_e_sqlite3.2.1.10.nupkg.sha512",
     "C:\\Users\\Eli\\.nuget\\packages\\sqlitepclraw.core\\2.1.10\\sqlitepclraw.core.2.1.10.nupkg.sha512",
+    "C:\\Users\\Eli\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.10\\sqlitepclraw.lib.e_sqlite3.2.1.10.nupkg.sha512",
+    "C:\\Users\\Eli\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.10\\sqlitepclraw.provider.e_sqlite3.2.1.10.nupkg.sha512",
     "C:\\Users\\Eli\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
     "C:\\Users\\Eli\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512",
     "C:\\Users\\Eli\\.nuget\\packages\\system.composition\\7.0.0\\system.composition.7.0.0.nupkg.sha512",
